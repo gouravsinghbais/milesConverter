@@ -1,0 +1,26 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "milesConverter"
+version = "1.2.0"
+description = "Convert KMs to Miles"
+readme = "README.md"
+authors = [{ name = "Gourav Bais", email = "gouravbais08@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Education"
+]
+keywords = ["converter", "miles", "kms"]
+dependencies = [
+    "numpy >= 1.20.3"
+]
+requires-python = ">=3.9"
